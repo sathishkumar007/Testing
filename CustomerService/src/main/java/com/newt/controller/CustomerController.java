@@ -49,6 +49,7 @@ public class CustomerController {
         	customer = customerService.findCustomerBycustomerId(id);
             if (customer.getCustomerId() == id) {
             	logger.info("Customer Id is found");
+                logger.info("Customer Id is found");
                 customer = customerService.findOne(id);
 
             } else {

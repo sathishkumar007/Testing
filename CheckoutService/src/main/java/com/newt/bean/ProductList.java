@@ -7,8 +7,7 @@ public class ProductList {
 	 private int productcheckoutId;
 	
 	 private int productId;
-	
-	 private String productName;
+		 private String productName;
 	
 	 private long customerId;
 	
